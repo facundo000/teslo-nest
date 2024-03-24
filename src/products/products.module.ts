@@ -9,7 +9,7 @@ import { Product, ProductImages } from './entities/index';
   controllers: [ProductsController],
   providers: [ProductsService],
   imports: [
-    TypeOrmModule.forFeature([ Product, ProductImages])
+    TypeOrmModule.forFeature([ Product, ProductImages ]),
   ],
   exports: [
     ProductsService,

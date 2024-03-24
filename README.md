@@ -22,4 +22,3 @@ npm run start:dev
 ```
 http://localhost:3000/api/seed
 ```
-# teslo-nest
